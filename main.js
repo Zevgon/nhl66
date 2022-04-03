@@ -9,20 +9,4 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
     }, 500);
-    // const observer = new MutationObserver(function(mutations) {
-    //     mutations.forEach(mutation => {
-    //         if (mutation.type === 'attributes' && mutation.target.nodeName === 'VIDEO') {
-    //             mutation.target.addEventListener('loadeddata', () => {
-    //                 mutation.target.currentTime = 0;
-    //             });
-    //         }
-    //     });
-    // });
-    // observer.observe(document.body, {
-    //     childList: true, // observe direct children
-    //     subtree: true, // lower descendants too
-    //     attributes: true,
-    // });
 });
-
-// "matches": ["https://nhl66.ir/*"],
