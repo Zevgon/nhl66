@@ -7,7 +7,7 @@
         {
             "matches": ["https://nhl66.ir/*"],
             "css": ["styles.css"],
-            "run_at": "document_start",
+            "run_at": "document_idle",
             "js": ["main.js"]
         }
     ]
