@@ -1,0 +1,11 @@
+.overlay-wrapper {
+    display: none !important;
+}
+
+.score {
+    display: none !important;
+}
+
+.unmute-panel {
+    display: none !important;
+}

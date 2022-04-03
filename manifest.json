@@ -1,0 +1,17 @@
+{
+    "name": "nhl66",
+    "description": "Make the nhl66 UI nice",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://nhl66.ir/*"],
+            "css": ["styles.css"],
+            "run_at": "document_start",
+            "js": ["main.js"]
+        }
+    ]
+}
